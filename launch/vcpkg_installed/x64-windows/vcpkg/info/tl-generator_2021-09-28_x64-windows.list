@@ -1,0 +1,14 @@
+x64-windows/
+x64-windows/include/
+x64-windows/include/tl/
+x64-windows/include/tl/generator.hpp
+x64-windows/share/
+x64-windows/share/cmake/
+x64-windows/share/cmake/tl-generator/
+x64-windows/share/cmake/tl-generator/tl-generator-config-version.cmake
+x64-windows/share/cmake/tl-generator/tl-generator-config.cmake
+x64-windows/share/cmake/tl-generator/tl-generator-targets.cmake
+x64-windows/share/tl-generator/
+x64-windows/share/tl-generator/copyright
+x64-windows/share/tl-generator/vcpkg.spdx.json
+x64-windows/share/tl-generator/vcpkg_abi_info.txt

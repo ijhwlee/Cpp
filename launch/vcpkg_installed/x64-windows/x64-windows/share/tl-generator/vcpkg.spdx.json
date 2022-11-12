@@ -1,0 +1,115 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/tl-generator-x64-windows-2021-09-28-6ef94f88-d328-49b4-bf03-0c391411dbd6",
+  "name": "tl-generator:x64-windows@2021-09-28 66268bdba8cbc028647503482f3fc3b7989d9f7e439e5369905fb2b6119e1c7c",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-3247920fbdd47d08f36cbd480addd9890d3c2435"
+    ],
+    "created": "2022-11-10T06:52:30Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "tl-generator",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2021-09-28",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://tl.tartanllama.xyz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Single-header, ranges-compatible generator type built on C++20 coroutines",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "tl-generator:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "66268bdba8cbc028647503482f3fc3b7989d9f7e439e5369905fb2b6119e1c7c",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "TartanLlama/generator",
+      "downloadLocation": "git+https://github.com/TartanLlama/generator@a8e421f04159199f6896b09cad2bd3c6fbb2a5fb",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "bb00cc0b3224813c7837175d81d7a08627dfe7a2f52c0bb8125ec7c6e8018a0a856c94463105dd04e7e20b8af9afc57c1c7228e9119174a9e621e675f8a3b447"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f2cf3a1b68112a617b6469ea49ec8733c4325e1328b5197f1298060f1a250317"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b9bb6ad1db51c19575f154958a36b27513040b89b647ee41e6b2fc8da2d813b2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

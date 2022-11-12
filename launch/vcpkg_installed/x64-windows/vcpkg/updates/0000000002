@@ -1,0 +1,9 @@
+Package: tl-generator
+Version: 2021-09-28
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 66268bdba8cbc028647503482f3fc3b7989d9f7e439e5369905fb2b6119e1c7c
+Description: Single-header, ranges-compatible generator type built on C++20 coroutines
+Type: Port
+Status: install ok half-installed
